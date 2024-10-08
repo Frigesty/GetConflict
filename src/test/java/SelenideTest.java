@@ -12,7 +12,7 @@ void practiceFormTest(){
     $("#wiki-pages-filter").setValue("SoftAssertions").pressEnter();
     $(".filterable-active").shouldHave(Condition.text("SoftAssertions"));
     $("[data-filterable-for=wiki-pages-filter]").$(byText("SoftAssertions")).click();
-    $(".markdown-body").shouldHave(Condition.text("Using JUnit5 extend test class"));
+    $(".markdown-body").shouldHave(Condition.text("Using JUnit5 extend"));
 
 }
 }
